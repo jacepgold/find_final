@@ -1,3 +1,8 @@
+## Notes
+### Select "starting" branch to begin with where previously left off.
+### Select "progress" branch to see progress of the project.
+### Select "final" branch for finished project after class is over.
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
