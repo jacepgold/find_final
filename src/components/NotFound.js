@@ -1,12 +1,13 @@
 import React from 'react';
-import { Header, Container, } from 'semantic-ui-react';
+import HeaderText from './HeaderText';
+import { Container, } from 'semantic-ui-react';
 
 const NotFound = () => (
   <Container>
     <br /><br /><br />
-    <Header as='h1' textAlign='center'>
+    <HeaderText fSize='large'>
       404 Page Not Found
-    </Header>
+    </HeaderText>
   </Container>
 );
 

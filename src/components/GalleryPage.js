@@ -1,15 +1,16 @@
 import React from 'react';
-import { Container, 
+import HeaderText from './HeaderText';
+import { 
+  Container, 
   Grid, 
   Image, 
   Segment, 
-  Header, 
 } from 'semantic-ui-react';
 
 const GalleryPage = () => (
   <Container style={{ marginTop: '7em' }}>
-    <Segment>
-      <Header as='h2' textAlign='center'>Gallery</Header>
+    <Segment basic>
+      <HeaderText fSize='large'>Gallery</HeaderText>
     </Segment>
     <Grid stackable>
       <Grid.Row columns={3}>

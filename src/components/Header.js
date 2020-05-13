@@ -33,6 +33,11 @@ const Header = () => (
         </Link>
       </Menu.Item>
       <Menu.Item>
+        <Link to='/portfolio'>
+          Portfolio
+        </Link>
+      </Menu.Item>
+      <Menu.Item>
         <Link to='/contact'>
           Contact
         </Link>

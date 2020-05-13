@@ -1,4 +1,5 @@
 import React from 'react';
+import HeaderText from './HeaderText';
 import { 
   Container,
   Form, 
@@ -6,13 +7,12 @@ import {
   Checkbox, 
   Button, 
   Divider,
-  Header,
 } from 'semantic-ui-react';
 
 const ContactPage = () => (
   <Container style={{ marginTop: '7em' }}>
     <Segment>
-      <Header as='h1'>Contact Us</Header>
+      <HeaderText fsize='large'>Contact Me</HeaderText>
       <Divider />
       <Form>
         <Form.Field>

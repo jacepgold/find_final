@@ -1,14 +1,14 @@
 import React from 'react';
+import HeaderText from './HeaderText';
 import {
   Container,
   Image,
-  Header,
 } from 'semantic-ui-react';
 
 const AboutPage = () => (
   <div>
     <Container text style={{ marginTop: '7em' }}>
-      <Header as='h1'>About Page</Header>
+      <HeaderText fSize='large'>About</HeaderText>
       <p>
         This is a website. I don't know what else to say yet
       </p>
