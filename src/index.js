@@ -1,14 +1,17 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
 import * as serviceWorker from './serviceWorker';
 import 'semantic-ui-css/semantic.min.css';
+import axios from 'axios';
+import { ThemeProvider, } from 'styled-components';
+
 import { 
   BrowserRouter as Router,
   Switch, 
   Route,
   Redirect,
 } from 'react-router-dom';
+
 // Static elements
 import Header from './components/Header';
 import Footer from './components/Footer';
